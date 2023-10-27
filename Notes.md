@@ -59,7 +59,7 @@ To create an Query
 - After going this website we need to enter the specified values from our schema 
 - After we get the Query which will be in the JSON format we need to **Copy and paste the code snippet to the GetAuthRequest function in the verifier API.**
 
-
+### Setting Up the Issuer Node
 
 
 
