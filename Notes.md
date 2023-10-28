@@ -61,6 +61,11 @@ To create an Query
 
 ### Setting Up the Issuer Node
 
+- To set up the issuer node simple clone the repository https://github.com/Abhishek-2416/PolygonId-IssuerNode
+- After doing this make the changes as mentioned in the top at the readme of the abhove repository
+- Follow the video https://www.youtube.com/watch?v=w0anLue7yZI to know how to set up the node 
+
+
 
 
 
