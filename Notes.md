@@ -65,6 +65,15 @@ To create an Query
 - After doing this make the changes as mentioned in the top at the readme of the abhove repository
 - Follow the video https://www.youtube.com/watch?v=w0anLue7yZI to know how to set up the node 
 
+### ERC20 Verifier Contract
+
+- Where in we need to inherit the ZKPVerifier Contract ,When the users will submit their proof to claim the airdrop by calling submitZKPResponse
+- The ERC20Verifier contract must define at least a single TRANSFER_REQUEST_ID. This is the Identifier of the request that the contract is making to the user.
+- The ZKPVerifier Contract provides 2 hooks:`_beforeProofSubmit` and `afterProofSubmit`. These hooks are called before and after any proof gets submitted and can be used create personalized logic inside your Smart Contract.
+In this specific case, it must be checked that the sender of the proof matches the address contained in the proof challenge. This requirement is necessary to prevent proof front-running. This condition is added inside _beforeProofSubmit.
+The airdrop logic must be added inside _afterProofSubmit. 
+- 
+
 
 
 
