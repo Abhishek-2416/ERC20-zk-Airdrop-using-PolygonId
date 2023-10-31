@@ -1,3 +1,0 @@
-# ERC20-zk-Airdrop-using-PolygonId
-
-In this we are creating a ERC20 zk Airdrop Contract The chosen query criteria is to be born before 01/01/2002. Users that are able to prove that were born before that date will be able to get the airdrop. Otherwise, they will not. The proof submitted to the Smart Contract will not reveal any information about the specific date of birth of the user. That is the magic of zero-knowledge!
